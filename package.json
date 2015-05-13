@@ -1,0 +1,19 @@
+{
+  "name": "loader-handle",
+  "version": "0.0.1",
+  "description": "Micro library to start and stop page loading spinner with opacity transition",
+  "main": "src/loader-handle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paharju/loader-handle"
+  },
+  "author": "Pasi Harju",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paharju/loader-handle/issues"
+  },
+  "homepage": "https://github.com/paharju/loader-handle"
+}

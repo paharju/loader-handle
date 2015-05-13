@@ -58,7 +58,7 @@ var s = document.getElementById('loading-spinner').style;
 			setTimeout(function(){
 				elem.style.opacity = "1";		
 			},0);			
-		});
+		},0);
 		
 	};
 
@@ -81,7 +81,7 @@ var s = document.getElementById('loading-spinner').style;
 			
 		setTimeout(function(){
 			elem.style.opacity = "0";				
-		});
+		},0);
 
 	};
 
