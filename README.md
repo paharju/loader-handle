@@ -1,12 +1,12 @@
 # loader-handle
 
-Micro library to start and stop page loading spinner with opacity transition
+CommonJs Micro library to start and stop page loading spinner with opacity transition
 
-##Installation
+## Installation
 
     $ npm install loader-handle
 
-##Setting up
+## Setting up
 
 You need to set up actual spinner for site. [spin.js](https://github.com/fgnass/spin.js/ ) is  great fit.
 
@@ -31,7 +31,7 @@ Basic example of index.html
     $ </script>
     $ </body>
 
-##loader handle usage
+## loader handle usage
 
 After You application is loaded and first view is rendered, you can stop loading spinner:
 
@@ -43,5 +43,9 @@ To start spinner again:
     $ loadSpinner.start();
 
 callback to start and stop function is optional, it will be called ~ when opacity transformation ends.
+
+## example
+
+Example index.html can be found [here](https://github.com/paharju/loader-handle/tree/master/src/examples/)
 
 
