@@ -8,7 +8,7 @@
 'use strict';
 var duration = 300; // in ms
 var emitter = new (require('events').EventEmitter)(),		
-	elem = document.getElementById('loading-spinner'),	
+	elem = document.getElementById('loading-indicator'),	
 	stopTimer = null, 
 	startTimer = null;
 

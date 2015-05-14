@@ -1,6 +1,6 @@
 {
   "name": "loader-handle",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Micro library to start and stop page loading spinner with opacity transition",
   "main": "src/loader-handle.js",
   "scripts": {
